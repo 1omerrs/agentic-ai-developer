@@ -27,9 +27,14 @@ Q: Ayni sohbet (ayni thread) ile yeni sohbet arasinda memory neden farkli davran
 A: Short-term memory sohbet id'sine (thread) gore tutulur. Sohbet 1'de verdigin bilgiyi sohbet 2 (yeni id) tanimaz; temiz sayfa gibi baslar.
 
 
-
 ## Tasarim
 Q: Kullanici tercihlerini uzun sure hatirlayan bir agent icin memory'yi nasil tasarlarsin? (short + long)
 A: Tercihler icin long-term kullanirim; sohbet kapansa dahi hatirlar, kullaniciyi unutmaz, ogrendikleriyle daha iyi cikti verir.
 Yanina short-term de koyarim: o anki sohbetin mesaj akisi icin.
+
+
+## Kod pratigi
+thread-1: adi ve favori rengi (mavi) hatirladi.
+thread-2: ikisini de bilmedi (yeni sohbet).
+A: Calisti — short-term memory thread_id ile bagli.
 
